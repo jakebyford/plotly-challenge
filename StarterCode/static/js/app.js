@@ -35,7 +35,7 @@ function createDataCharts(bellyButtonId) {
             console.log(ids);
 
     //Use `sample_values` as the values for the bar chart
-            var sampleValues = data.samples[0].sample_values;
+            var sampleValues = data.samples[0].sample_values;// could do --result.samples-- as well
             console.log(sampleValues);
     
             var otuLabels = result.otu_labels;
